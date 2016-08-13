@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator2" min="-2" pref="20" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jButton2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jButton1" alignment="0" pref="212" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="numerAlbumu" min="-2" pref="90" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator2" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="numerAlbumu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" pref="100" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pierwszaLinia1" alignment="0" min="-2" pref="71" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="piataLinia" alignment="0" max="32767" attributes="0"/>
+                          <Component id="czwartaLinia" alignment="0" max="32767" attributes="0"/>
+                          <Component id="trzeciaLinia" alignment="0" max="32767" attributes="0"/>
+                          <Component id="drugaLinia1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="szostaLinia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="suma" alignment="0" max="32767" attributes="0"/>
+                          <Component id="pietnastaLinia" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="drugaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="trzeciaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="czwartaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="piataLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="szostaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="siodmaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="osmaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="pierwszaLinia2" min="-2" pref="59" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="dziewiataLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="dziesiataLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="jedenastaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="dwunastaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="trzynastaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="czternastaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="pietnastaLinia2" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="suma2" alignment="0" min="-2" pref="55" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pierwszaLinia3" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="drugaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="piataLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="szostaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="osmaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia3" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="suma3" alignment="0" min="-2" pref="55" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pierwszaLinia4" alignment="0" min="-2" pref="71" max="-2" attributes="0"/>
+                      <Component id="drugaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="piataLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="szostaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="osmaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia4" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="suma4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="pietnastaLinia4" alignment="0" pref="45" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="drugaLinia5" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="pierwszaLinia5" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="piataLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="szostaLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="osmaLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia5" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="suma5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="pietnastaLinia5" alignment="0" pref="45" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pierwszaLinia6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="piataLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="szostaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="osmaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia6" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="suma6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="pietnastaLinia6" alignment="0" pref="45" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="czternastaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="czternastaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="trzynastaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="trzynastaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="dwunastaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="dwunastaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jedenastaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jedenastaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="dziesiataLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="dziesiataLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="dziewiataLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="dziewiataLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="osmaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="osmaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="siodmaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="siodmaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="szostaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="szostaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="piataLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="piataLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="czwartaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="czwartaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="trzeciaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="trzeciaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="drugaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="drugaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="pierwszaLinia7" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="pietnastaLinia7" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="pietnastaLinia8" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="suma7" alignment="1" min="-2" pref="55" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="pietnastaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pietnastaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="czternastaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="czternastaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="trzynastaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="trzynastaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="dwunastaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="dwunastaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jedenastaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jedenastaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="dziesiataLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="dziesiataLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="dziewiataLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="dziewiataLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="osmaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="osmaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="siodmaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="siodmaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="szostaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="szostaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="piataLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="piataLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="czwartaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="czwartaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="trzeciaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="trzeciaLinia10" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="pierwszaLinia8" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="drugaLinia9" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="drugaLinia10" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="suma8" min="-2" pref="55" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="pietnastaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pietnastaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="czternastaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="czternastaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="trzynastaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="trzynastaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="dwunastaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="dwunastaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jedenastaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jedenastaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="dziesiataLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="dziesiataLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="dziewiataLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="dziewiataLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="osmaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="osmaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="siodmaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="siodmaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="szostaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="szostaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="piataLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="piataLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="czwartaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="czwartaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="trzeciaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="trzeciaLinia12" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="pierwszaLinia9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="drugaLinia11" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="drugaLinia12" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="suma9" min="-2" pref="55" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="pierwszaLinia10" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="trzeciaLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="drugaLinia13" alignment="0" pref="30" max="32767" attributes="0"/>
+                                      <Component id="czwartaLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="piataLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="szostaLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="siodmaLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="osmaLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="dziewiataLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="dziesiataLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jedenastaLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="dwunastaLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="trzynastaLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="czternastaLinia13" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="pietnastaLinia13" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="czternastaLinia14" alignment="0" pref="40" max="32767" attributes="0"/>
+                                      <Component id="trzynastaLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="dwunastaLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jedenastaLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="dziesiataLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="dziewiataLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="drugaLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="trzeciaLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="czwartaLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="piataLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="szostaLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="siodmaLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="osmaLinia14" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="pietnastaLinia14" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="suma10" min="-2" pref="55" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="66" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="pierwszaLinia3" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
+                      <Component id="pierwszaLinia2" alignment="3" max="32767" attributes="0"/>
+                      <Component id="pierwszaLinia4" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                      <Component id="pierwszaLinia1" alignment="3" min="-2" pref="65" max="-2" attributes="0"/>
+                      <Component id="pierwszaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pierwszaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pierwszaLinia7" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
+                      <Component id="pierwszaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pierwszaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pierwszaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="drugaLinia1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="drugaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="trzeciaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzeciaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="czwartaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czwartaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="piataLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="piataLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="szostaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="szostaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="siodmaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="siodmaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="osmaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="osmaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="dziewiataLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziewiataLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="dziesiataLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dziesiataLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jedenastaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jedenastaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="dwunastaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dwunastaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="trzynastaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="trzynastaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="czternastaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="czternastaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="pietnastaLinia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pietnastaLinia14" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="suma" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="suma2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="suma3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="suma4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="suma5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="suma6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="suma7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="suma8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="suma9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="suma10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Dane&lt;br&gt;&#xa;narastaj&#x105;co&lt;br&gt;do&lt;br&gt;godziny"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Dane &#xa;narastaj&#x105;co do godziny"/>
+          </AccessibilityProperties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Ilo&#x15b;&#x107; kart&lt;br&gt;wydanych&lt;br&gt;przez&lt;br&gt;komisj&#x119;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Ilo&#x15b;&#x107; kart&lt;br&gt;wrzuconych&lt;br&gt;do urmn"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Ilo&#x15b;&#x107; kart&lt;br&gt;&#x142;&#x105;cznie g&#x142;os&#xf3;w&lt;br&gt;niewa&#x17c;nych"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Ilo&#x15b;&#x107; kart&lt;br&gt;g&#x142;os&#xf3;w&lt;br&gt;niewa&#x17c;nych&lt;br&gt;pustych"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Ilo&#x15b;&#x107; kart&lt;br&gt;g&#x142;os&#xf3;w&lt;br&gt;niewa&#x17c;nych &#x17a;le&lt;br&gt;wype&#x142;nionych"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Ilo&#x15b;&#x107; kart&lt;br&gt;g&#x142;os&#xf3;w wa&#x17c;nych&lt;br&gt;[ % / ilo&#x15b;&#x107; ]"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Kandydat A&lt;br&gt;&lt;br&gt;&#xa;[ % / ilo&#x15b;&#x107; ]"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Kandydat B&lt;br&gt;&lt;br&gt;&#xa;[ % / ilo&#x15b;&#x107; ]"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pierwszaLinia10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Kandydat C&lt;br&gt;&lt;br&gt;&#xa;[ % / ilo&#x15b;&#x107; ]"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="7 - 8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="8 - 9"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="9 - 10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="10 - 11"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="11 - 12"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="12 - 13"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="13 - 14"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="14 - 15"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="15 - 16"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="16 - 17"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="17 - 18"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="18 - 19"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="19 - 20"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="20 - 21"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="drugaLinia2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="drugaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzeciaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czwartaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="piataLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="szostaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="siodmaLinia13ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="siodmaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="siodmaLinia14ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="osmaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dziewiataLinia13ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziewiataLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dziewiataLinia14ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dziesiataLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jedenastaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="dwunastaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="trzynastaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="czternastaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="8" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia11">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia12">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia13">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="9" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pietnastaLinia14">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="SUMA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma3">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma4">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma6">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma7">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma8">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma9">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="suma10">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="START"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="EXIT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/img/wybory.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="numerAlbumu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="23189"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numerAlbumuActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nr albumu:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
